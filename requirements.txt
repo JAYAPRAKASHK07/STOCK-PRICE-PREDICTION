@@ -1,0 +1,10 @@
+(module) numpy
+(module) pandas
+(module) yfinance
+(module) keras
+(module) streamlit
+(module) matplotlib
+(module) sklearn
+(module) datetime
+
+JUPYTER NOTEBOOK
