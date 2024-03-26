@@ -14,16 +14,12 @@ repo_url = 'https://github.com/JAYAPRAKASHK07/STOCK-PRICE-PREDICTION.git'
     
 from keras.models import load_model
 
-# Check if the directory exists, if not, create it
-if not os.path.exists(path_to_cloned_repository_directory):
-    os.makedirs(path_to_cloned_repository_directory)
+# Specify the path to the model file within the cloned repository
+model_path = 'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION\Stock Predictions Model 2025.keras'
 
-# Now you can use path_to_cloned_repository_directory in your code
-path_to_cloned_repository_directory = 'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION'
-
-# Load the Keras model from the cloned repository
-model_path = os.path.join(path_to_cloned_repository_directory, 'Stock Predictions Model 2025.keras')
+# Load the model
 model = load_model(model_path)
+
 
 # Streamlit setup
 st.header('Stock Price Predictor')
