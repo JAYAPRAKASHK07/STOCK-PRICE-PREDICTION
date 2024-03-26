@@ -11,18 +11,11 @@ import git
 
 # Specify the URL of your GitHub repository
 repo_url = 'https://github.com/JAYAPRAKASHK07/STOCK-PRICE-PREDICTION.git'
-
-# Define the local directory where the repository will be cloned
-repo_dir = 'D:\github'
-
-# Clone the repository
-if not os.path.exists(repo_dir):
-    git.Git().clone(repo_url, repo_dir)
     
 from keras.models import load_model
 
 # Specify the path to the cloned repository directory
-cloned_repo_dir = 'https://github.com/JAYAPRAKASHK07/STOCK-PRICE-PREDICTION.git'
+cloned_repo_dir = 'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION'
 
 # Load the Keras model from the cloned repository
 model_path = os.path.join(cloned_repo_dir, 'Stock Predictions Model 2025.keras')
