@@ -14,13 +14,6 @@ repo_url = 'https://github.com/JAYAPRAKASHK07/STOCK-PRICE-PREDICTION.git'
     
 from keras.models import load_model
 
-# Specify the path to the cloned repository directory
-cloned_repo_dir = 'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION'
-import os
-
-# Specify the path to the directory where you want to clone the repository
-path_to_cloned_repository_directory = 'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION'
-
 # Check if the directory exists, if not, create it
 if not os.path.exists(path_to_cloned_repository_directory):
     os.makedirs(path_to_cloned_repository_directory)
