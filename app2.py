@@ -15,7 +15,7 @@ repo_url = 'https://github.com/JAYAPRAKASHK07/STOCK-PRICE-PREDICTION.git'
 from keras.models import load_model
 
 # Specify the path to the cloned repository directory
-cloned_repo_dir = r'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION'
+cloned_repo_dir = 'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION'
 
 # Load the Keras model from the cloned repository
 model_path = os.path.join(cloned_repo_dir, 'Stock Predictions Model 2025.keras')
