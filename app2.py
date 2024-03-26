@@ -6,10 +6,13 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime, timedelta
+from keras.models import load_model
 
-# Load the saved model
-model = load_model(Stock Predictions Model 2025.keras)
+# Specify the path to the model file within the repository
+model_path = 'Stock Predictions Model 2025.keras'
 
+# Load the model
+model = load_model(model_path)
 
 # Streamlit setup
 st.header('Stock Price Predictor')
