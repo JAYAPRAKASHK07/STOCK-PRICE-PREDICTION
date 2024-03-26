@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime, timedelta
 
 # Load the saved model
-model = load_model(model_path)
+model = load_model(Stock Predictions Model 2025.keras)
 
 
 # Streamlit setup
