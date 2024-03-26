@@ -13,7 +13,7 @@ import git
 repo_url = 'https://github.com/JAYAPRAKASHK07/STOCK-PRICE-PREDICTION.git'
 
 # Define the local directory where the repository will be cloned
-repo_dir = 'Stock Predictions Model 2025.keras'
+repo_dir = 'D:\github'
 
 # Clone the repository
 if not os.path.exists(repo_dir):
