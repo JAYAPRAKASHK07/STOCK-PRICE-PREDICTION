@@ -6,18 +6,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime, timedelta
-import os
-import git
 
-# Specify the URL of your GitHub repository
-repo_url = 'https://github.com/JAYAPRAKASHK07/STOCK-PRICE-PREDICTION.git'
-    
-from keras.models import load_model
-
-# Specify the path to the model file within the cloned repository
-model_path = 'C:\Users\kjp94\repository\STOCK-PRICE-PREDICTION\Stock Predictions Model 2025.keras'
-
-# Load the model
+# Load the saved model
 model = load_model(model_path)
 
 
